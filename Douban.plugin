@@ -1,0 +1,15 @@
+#!name=豆瓣电影移动版网页优化
+#!desc=豆瓣电影移动版网页增强，快捷跳转茶杯狐与 Libvio 搜索，豆瓣移动版网页去广告
+#!homepage=https://t.me/ddgksf2021
+#!author=ddgksf2021
+#!icon=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Icon/80px/Douban.png
+
+[MITM]
+hostname = m.douban.com
+
+[Script]
+# > 茶杯狐、Libvio 流媒体
+http-response ^https://m.douban.com/movie/subject/.+ script-path=https://github.com/ddgksf2013/Scripts/raw/master/douban.js, requires-body=true, tag=茶杯狐、Libvio 流媒体
+
+# > Airtable 收藏
+http-request ^https://m.douban.com/movie/subject/.+\?seen=\d script-path=https://github.com/ddgksf2013/Scripts/raw/master/douban.js, requires-body=true, tag=Airtable 收藏
