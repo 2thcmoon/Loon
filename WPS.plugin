@@ -1,0 +1,11 @@
+#!name=WPS会员
+#!desc=WPS解锁本地会员
+#!icon= https://raw.githubusercontent.com/deezertidal/private/main/icons/wps.png
+#!homepage=https://t.me/yqc_777/582009
+#!author=Sweet510
+
+[Script]
+http-response ^https?:\/\/.*?account\.wps\.(com|cn)(:\d+)?\/api\/users\/\w+\/overview$ script-path=https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Premium/WPSOffice.js, requires-body=true, timeout=10, tag=WPS会员
+
+[MITM]
+hostname = account.wps.cn,*account.wps.com
