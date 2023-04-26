@@ -4,8 +4,25 @@
 #!homepage=https://t.me/yqc_777/582009
 #!author=Sweet510
 
+
+
 [Script]
-http-response ^https?:\/\/.*?account\.wps\.(com|cn)(:\d+)?\/api\/users\/\w+\/overview$ script-path=https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Premium/WPSOffice.js, requires-body=true, timeout=10, tag=WPS会员
+http-response ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js, requires-body=true, tag=Pro
+http-response ^https:\/\/app\.yiyan\.art\/yiyan\/ script-path=https://github.com/ddgksf2013/dev/raw/main/YiYanProCrack.js, requires-body=true, tag=Pro
+http-response https://lchttpapi.xczim.com/* script-path=https://github.com/ddgksf2013/dev/raw/main/XiChuangZhuProCrack.js, requires-body=true, tag=Pro
+http-response ^https?:\/\/api\.tipsoon\.com\/api\/v1\/user\/info script-path=https://github.com/ddgksf2013/dev/raw/main/JianXunProCrack.js, requires-body=true, tag=Pro
+http-response http://ipadcms.caixin.com/tmp/articles/* script-path=https://github.com/ddgksf2013/dev/raw/main/CaiXinZhouKanProCrack.js, requires-body=true, tag=Pro
+http-response ^https?:\/\/server\.zbisq\.com\/fimo-user script-path=https://raw.githubusercontent.com/ddgksf2013/MoYu/master/fimo.js, requires-body=true, tag=Pro
+http-response https://awvp.aoscdn.com/base/vip/v2/vips script-path=https://raw.githubusercontent.com/ddgksf2013/MoYu/master/apowersoft.js, requires-body=true, tag=Pro
+http-response ^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ script-path=https://github.com/ddgksf2013/dev/raw/main/MeiTuXiuXiuProCrack.js, requires-body=true, tag=Pro
+http-response ^https:\/\/claritywallpaper\.com\/clarity\/api\/(userInfo|special\/queryByCatalogAll|picture\/search|catalog\/listAll|top\/list|picture\/date\?date) script-path=https://github.com/ddgksf2013/dev/raw/main/ClarityProCrack.js, requires-body=true, tag=Pro
+http-response ^https?:\/\/api\.meiease\.cn\/shop\/subscription\/validate script-path=https://github.com/ddgksf2013/dev/raw/main/PicsartProCrack.js, requires-body=true, tag=Pro
+http-response ^https?:\/\/api4\.bybutter\.com\/v4\/(users\/me$|shop\/me\/privileges$) script-path=https://github.com/ddgksf2013/dev/raw/main/BybutterProCrack.js, requires-body=true, tag=Pro
+http-response ^https?:\/\/.*xiaozujian\.com\/api\/app\/config\/userConfig script-path=https://github.com/ddgksf2013/dev/raw/main/TopwidgetsProCrack.js, requires-body=true, tag=Pro
+http-response ^https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user script-path=https://github.com/ddgksf2013/dev/raw/main/BaiDuCloudProCrack.js, requires-body=true, tag=Pro
+http-response ^https:\/\/(vas|account)\.wps\.cn\/(query\/api\/v\d\/list_purchase_info|api\/users\/\d+\/overview) script-path=https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Premium/WPSOffice.js, requires-body=true, tag=Pro
+http-response ^https?:\/\/appraven\.net\/AppRaven\/(app|social|buy) script-path=https://github.com/ddgksf2013/dev/raw/main/AppravenProCrack.js, requires-body=true, tag=Pro
+http-request ^https?:\/\/mobile\.flightradar24\.com\/mobile\/(user-session|\w{9}) script-path=https://github.com/ddgksf2013/dev/raw/main/flightradar24.js, requires-body=false, tag=Pro
 
 [MITM]
-hostname = account.wps.cn,*account.wps.com
+hostname = server.zbisq.com, mobile.flightradar24.com, api4.bybutter.com, wallpaper.soutushenqi.com, api.tipsoon.com, *xiaozujian, lchttpapi.xczim.com, app.yiyan.art, gateway.caixin.com, notability.com, pan.baidu.com, spclient.wg.spotify.com, *wps*, ticktick.com, ap*.intsig.net, ipadcms.caixin.com, awvp.aoscdn.com, *.xiuxiu.meitu.com, claritywallpaper.com, api.meiease.cn, restore-access.indream.app, appraven.net
