@@ -36,6 +36,8 @@ http-response ^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)
 http-response ^https:\/\/claritywallpaper\.com\/clarity\/api\/(userInfo|special\/queryByCatalogAll|picture\/search|catalog\/listAll|top\/list|picture\/date\?date) script-path=https://github.com/ddgksf2013/dev/raw/main/ClarityProCrack.js, requires-body=true, tag=克拉壁纸
 # ✅ Picsart
 http-response ^https?:\/\/api\.meiease\.cn\/shop\/subscription\/validate script-path=https://github.com/ddgksf2013/dev/raw/main/PicsartProCrack.js, requires-body=true, tag=Picsart
+# ✅ 搜图神器
+http-response http:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/account\/token script-path=https://github.com/Alexzzz6/Loon/raw/main/stsq.js, requires-body=true, timeout=10, tag=搜图神器
 # ✅ 黄油相机
 http-response ^https?:\/\/api4\.bybutter\.com\/v4\/(users\/me$|shop\/me\/privileges$) script-path=https://github.com/ddgksf2013/dev/raw/main/BybutterProCrack.js, requires-body=true, tag=黄油相机
 
@@ -47,10 +49,19 @@ http-response ^https?:\/\/.*xiaozujian\.com\/api\/app\/config\/userConfig script
 http-response ^https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user script-path=https://github.com/ddgksf2013/dev/raw/main/BaiDuCloudProCrack.js, requires-body=true, tag=百度网盘
 # ✅ WPS(国区)
 http-response ^https:\/\/(vas|account)\.wps\.cn\/(query\/api\/v\d\/list_purchase_info|api\/users\/\d+\/overview) script-path=https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Premium/WPSOffice.js, requires-body=true, tag=WPS
+# ✅ Nicegram
+http-response ^https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\w+$ script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Nicegram/Script/Nicegram.js, requires-body=true, timeout=10, tag=Nicegram
 # ✅ Appraven(美化)
 http-response ^https?:\/\/appraven\.net\/AppRaven\/(app|social|buy) script-path=https://github.com/ddgksf2013/dev/raw/main/AppravenProCrack.js, requires-body=true, tag=Appraven
 # ✅ 扫描全能王
 http-response ^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? script-path=https://github.com/ddgksf2013/dev/raw/main/CamscannerProCrack.js, requires-body=true, tag=扫描全能王
 
+
+#>>>>>>>>>>>>>>>>自行添加
+# ✅ 钱迹解锁会员
+http-response ^https:\/\/qianji\.xxoojoke\.com\/vip\/configios script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/qj.js, requires-body=true, tag=钱迹
+# ✅ 色采解锁会员
+http-response ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/sc.js, requires-body=true, tag=色采
+
 [MITM]
-hostname = server.zbisq.com, mobile.flightradar24.com, api4.bybutter.com, wallpaper.soutushenqi.com, api.tipsoon.com, *xiaozujian, lchttpapi.xczim.com, app.yiyan.art, gateway.caixin.com, notability.com, pan.baidu.com, spclient.wg.spotify.com, *wps*, ticktick.com, ap*.intsig.net, ipadcms.caixin.com, awvp.aoscdn.com, *.xiuxiu.meitu.com, claritywallpaper.com, api.meiease.cn, restore-access.indream.app, appraven.net
+hostname = server.zbisq.com, mobile.flightradar24.com, api4.bybutter.com, wallpaper.soutushenqi.com, api.tipsoon.com, *xiaozujian, lchttpapi.xczim.com, app.yiyan.art, gateway.caixin.com, pan.baidu.com, spclient.wg.spotify.com, *wps*, ticktick.com, ap*.intsig.net, ipadcms.caixin.com, awvp.aoscdn.com, *.xiuxiu.meitu.com, claritywallpaper.com, api.meiease.cn, restore-access.indream.app, appraven.net, qianji.xxoojoke.com, buy.itunes.apple.com
