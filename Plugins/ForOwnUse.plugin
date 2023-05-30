@@ -1,0 +1,67 @@
+#!name=墨鱼专属VIP
+#!desc=Only for own use, created by ddgksf2013
+#!icon= https://raw.githubusercontent.com/deezertidal/private/main/icons/wps.png
+#!homepage=https://t.me/ddgksf2021
+#!author=ddgksf2021
+
+
+
+[Script]
+#>>>>>>>>>>>>>>>>生活类VIP
+# ✅ Spotify
+http-response ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js, requires-body=true, tag=Spotify
+# ✅ 一言(need登录)
+http-response ^https:\/\/app\.yiyan\.art\/yiyan\/ script-path=https://github.com/ddgksf2013/dev/raw/main/YiYanProCrack.js, requires-body=true, tag=一言
+# ✅ 西窗烛(need登录)
+http-response https://lchttpapi.xczim.com/* script-path=https://github.com/ddgksf2013/dev/raw/main/XiChuangZhuProCrack.js, requires-body=true, tag=西窗烛
+# ✅ 简讯
+http-response ^https?:\/\/api\.tipsoon\.com\/api\/v1\/user\/info script-path=https://github.com/ddgksf2013/dev/raw/main/JianXunProCrack.js, requires-body=true, tag=简讯
+# ✅ Flightradar24
+http-request ^https?:\/\/mobile\.flightradar24\.com\/mobile\/(user-session|\w{9}) script-path=https://github.com/ddgksf2013/dev/raw/main/flightradar24.js, requires-body=false, tag=Flightradar24
+
+
+#>>>>>>>>>>>>>>>>新闻类VIP
+# ✅ 财新周刊
+http-response http://ipadcms.caixin.com/tmp/articles/* script-path=https://github.com/ddgksf2013/dev/raw/main/CaiXinZhouKanProCrack.js, requires-body=true, tag=财新周刊
+
+
+#>>>>>>>>>>>>>>>>图影类VIP
+# ✅ Fimo(need登录)
+http-response ^https?:\/\/server\.zbisq\.com\/fimo-user script-path=https://raw.githubusercontent.com/ddgksf2013/MoYu/master/fimo.js, requires-body=true, tag=Fimo
+# ✅ 傲软抠图(need登录)
+http-response https://awvp.aoscdn.com/base/vip/v2/vips script-path=https://raw.githubusercontent.com/ddgksf2013/MoYu/master/apowersoft.js, requires-body=true, tag=傲软抠图
+# ✅ 美图秀秀
+http-response ^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ script-path=https://github.com/ddgksf2013/dev/raw/main/MeiTuXiuXiuProCrack.js, requires-body=true, tag=美图秀秀
+# ✅ 克拉壁纸
+http-response ^https:\/\/claritywallpaper\.com\/clarity\/api\/(userInfo|special\/queryByCatalogAll|picture\/search|catalog\/listAll|top\/list|picture\/date\?date) script-path=https://github.com/ddgksf2013/dev/raw/main/ClarityProCrack.js, requires-body=true, tag=克拉壁纸
+# ✅ Picsart
+http-response ^https?:\/\/api\.meiease\.cn\/shop\/subscription\/validate script-path=https://github.com/ddgksf2013/dev/raw/main/PicsartProCrack.js, requires-body=true, tag=Picsart
+# ✅ 搜图神器
+http-response http:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/account\/token script-path=https://github.com/Alexzzz6/Loon/raw/main/Scripts/stsq.js, requires-body=true, timeout=10, tag=搜图神器
+# ✅ 黄油相机
+http-response ^https?:\/\/api4\.bybutter\.com\/v4\/(users\/me$|shop\/me\/privileges$) script-path=https://github.com/ddgksf2013/dev/raw/main/BybutterProCrack.js, requires-body=true, tag=黄油相机
+
+
+#>>>>>>>>>>>>>>>>工具类VIP
+# ✅ TopWidgets
+http-response ^https?:\/\/.*xiaozujian\.com\/api\/app\/config\/userConfig script-path=https://github.com/ddgksf2013/dev/raw/main/TopwidgetsProCrack.js, requires-body=true, tag=TopWidgets
+# ✅ 百度网盘(倍速)
+http-response ^https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user script-path=https://github.com/ddgksf2013/dev/raw/main/BaiDuCloudProCrack.js, requires-body=true, tag=百度网盘
+# ✅ WPS(国区)
+http-response ^https:\/\/(vas|account)\.wps\.cn\/(query\/api\/v\d\/list_purchase_info|api\/users\/\d+\/overview) script-path=https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Premium/WPSOffice.js, requires-body=true, tag=WPS
+# ✅ Nicegram
+http-request ^https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\w+$ script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Nicegram/Script/Nicegram.js, requires-body=true, timeout=10, tag=Nicegram
+# ✅ Appraven(美化)
+http-response ^https?:\/\/appraven\.net\/AppRaven\/(app|social|buy) script-path=https://github.com/ddgksf2013/dev/raw/main/AppravenProCrack.js, requires-body=true, tag=Appraven
+# ✅ 扫描全能王
+http-response ^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? script-path=https://github.com/ddgksf2013/dev/raw/main/CamscannerProCrack.js, requires-body=true, tag=扫描全能王
+
+
+#>>>>>>>>>>>>>>>>自行添加
+# ✅ 钱迹解锁会员
+http-response ^https:\/\/qianji\.xxoojoke\.com\/vip\/configios script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/qj.js, requires-body=true, tag=钱迹
+http-response ^https?:\/\/focos\.oracle\.bendingspoonsapps\.com\/v\d\/(users\/setup|purchases\/verify\/apple) script-path=https://github.com/Alexzzz6/Loon/raw/main/Scripts/focos.js, requires-body=true, tag=Focos
+
+
+[MITM]
+hostname = server.zbisq.com, mobile.flightradar24.com, api4.bybutter.com, wallpaper.soutushenqi.com, api.tipsoon.com, *xiaozujian, lchttpapi.xczim.com, app.yiyan.art, gateway.caixin.com, pan.baidu.com, spclient.wg.spotify.com, *wps*, ticktick.com, ap*.intsig.net, ipadcms.caixin.com, awvp.aoscdn.com, *.xiuxiu.meitu.com, claritywallpaper.com, api.meiease.cn, restore-access.indream.app, appraven.net, qianji.xxoojoke.com, focos.oracle.bendingspoonsapps.com
