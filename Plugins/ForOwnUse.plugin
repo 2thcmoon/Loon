@@ -8,9 +8,6 @@
 
 [Script]
 #>>>>>>>>>>>>>>>>生活类VIP
-# ✅ Spotify
-^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
-^https:\/\/spclient\.wg\.spotify\.com\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/ url script-request-header https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-json.js
 # ✅ 一言(need登录)
 http-response ^https:\/\/app\.yiyan\.art\/yiyan\/ script-path=https://github.com/ddgksf2013/dev/raw/main/YiYanProCrack.js, requires-body=true, tag=一言
 # ✅ 西窗烛(need登录)
@@ -59,8 +56,6 @@ http-response ^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property
 
 
 #>>>>>>>>>>>>>>>>自行添加
-# ✅ 钱迹解锁会员
-http-response ^https:\/\/qianji\.xxoojoke\.com\/vip\/configios script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/qj.js, requires-body=true, tag=钱迹
 # ✅ Focos解锁会员
 http-response ^https?:\/\/focos\.oracle\.bendingspoonsapps\.com\/v\d\/(users\/setup|purchases\/verify\/apple) script-path=https://github.com/Alexzzz6/Loon/raw/main/Scripts/focos.js, requires-body=true, tag=Focos
 # ✅ PDF Expert解锁专业版
