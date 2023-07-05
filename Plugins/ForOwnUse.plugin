@@ -58,8 +58,6 @@ http-response ^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property
 #>>>>>>>>>>>>>>>>自行添加
 # ✅ Focos解锁会员
 http-response ^https?:\/\/focos\.oracle\.bendingspoonsapps\.com\/v\d\/(users\/setup|purchases\/verify\/apple) script-path=https://github.com/Alexzzz6/Loon/raw/main/Scripts/focos.js, requires-body=true, tag=Focos
-# ✅ PDF Expert解锁专业版
-http-request ^https:\/\/license\.pdfexpert\.com\/api\/2\.0\/pdfexpert6\/subscription\/refresh script-path=https://raw.githubusercontent.com/jizhi0520/QX/main/PDFExpert.js, requires-body=true, timeout=10, tag=PDF Expert
 
 [MITM]
-hostname = server.zbisq.com, mobile.flightradar24.com, api4.bybutter.com, wallpaper.soutushenqi.com, api.tipsoon.com, *xiaozujian, lchttpapi.xczim.com, app.yiyan.art, gateway.caixin.com, pan.baidu.com, spclient.wg.spotify.com, *wps*, ticktick.com, ap*.intsig.net, ipadcms.caixin.com, awvp.aoscdn.com, *.xiuxiu.meitu.com, claritywallpaper.com, api.meiease.cn, restore-access.indream.app, appraven.net, focos.oracle.bendingspoonsapps.com, license.pdfexpert.com
+hostname = server.zbisq.com, mobile.flightradar24.com, api4.bybutter.com, wallpaper.soutushenqi.com, api.tipsoon.com, *xiaozujian, lchttpapi.xczim.com, app.yiyan.art, gateway.caixin.com, pan.baidu.com, spclient.wg.spotify.com, *wps*, ticktick.com, ap*.intsig.net, ipadcms.caixin.com, awvp.aoscdn.com, *.xiuxiu.meitu.com, claritywallpaper.com, api.meiease.cn, restore-access.indream.app, appraven.net, focos.oracle.bendingspoonsapps.com
