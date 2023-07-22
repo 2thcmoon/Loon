@@ -62,6 +62,8 @@ http-response ^https?:\/\/focos\.oracle\.bendingspoonsapps\.com\/v\d\/(users\/se
 http-response ^https:\/\/api\.guoqi365\.com\/1\.1\/functions\/getUserInfo script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/guoqila.js, requires-body=true, tag=过期啦
 # ✅ Emby解锁会员
 http-response ^https?:\/\/mb3admin.com\/admin\/service\/registration\/validateDevice requires-body=true, script-path=https://raw.githubusercontent.com/Tartarus2014/Script/master/Emby.js,tag=Emby Unlock
+# ✅ Flomo浮墨解锁会员
+http-response ^https:\/\/flomoapp\.com\/api\/v1\/user\/me requires-body=true, script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/flomo.js,tag=Flomo
 
 [MITM]
-hostname = app.yiyan.art, lchttpapi.xczim.com, api.tipsoon.com, mobile.flightradar24.com, ipadcms.caixin.com, server.zbisq.com, awvp.aoscdn.com, *.xiuxiu.meitu.com, claritywallpaper.com, api.meiease.cn, wallpaper.soutushenqi.com, api4.bybutter.com, *xiaozujian, pan.baidu.com, *wps*, restore-access.indream.app, appraven.net, ap*.intsig.net, focos.oracle.bendingspoonsapps.com, api.guoqi365.com, mb3admin.com
+hostname = app.yiyan.art, lchttpapi.xczim.com, api.tipsoon.com, mobile.flightradar24.com, ipadcms.caixin.com, server.zbisq.com, awvp.aoscdn.com, *.xiuxiu.meitu.com, claritywallpaper.com, api.meiease.cn, wallpaper.soutushenqi.com, api4.bybutter.com, *xiaozujian, pan.baidu.com, *wps*, restore-access.indream.app, appraven.net, ap*.intsig.net, focos.oracle.bendingspoonsapps.com, api.guoqi365.com, mb3admin.com, flomoapp.com
