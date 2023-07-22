@@ -1,4 +1,3 @@
-*/
 var responseData = {
     "result": {
       "data": {
