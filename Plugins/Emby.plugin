@@ -6,4 +6,4 @@ http-response ^https?:\/\/mb3admin.com\/admin\/service\/registration\/validateDe
 
 
 [MITM]
-hostname =  mb3admin.com
+hostname = mb3admin.com

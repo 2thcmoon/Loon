@@ -1,8 +1,8 @@
 #!name=豆瓣电影移动版网页优化
 #!desc=豆瓣电影移动版网页增强，快捷跳转茶杯狐与 Libvio 搜索，豆瓣移动版网页去广告
-#!homepage=https://t.me/ddgksf2021
-#!author=ddgksf2021
-#!icon=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Icon/80px/Douban.png
+#!homepage = https://t.me/ddgksf2021
+#!author = ddgksf2021
+#!icon = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Icon/80px/Douban.png
 
 [MITM]
 hostname = m.douban.com

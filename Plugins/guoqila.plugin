@@ -1,8 +1,11 @@
 #!name=过期啦会员解锁
 #!desc=过期啦会员解锁
+#!author = ios151
+#!homepage = https://t.me/ios151
+#!icon = 
 
 [Script]
-http-response ^https:\/\/api\.guoqi365\.com\/1\.1\/functions\/getUserInfo requires-body=true, script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/guoqila.js
+http-response ^https:\/\/api\.guoqi365\.com\/1\.1\/functions\/getUserInfo script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/guoqila.js, requires-body=true, tag=guoqila
 
 
 [MITM]
