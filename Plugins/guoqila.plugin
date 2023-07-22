@@ -1,0 +1,9 @@
+#!name=过期啦会员解锁
+#!desc=过期啦会员解锁
+
+[Script]
+http-response ^https:\/\/api\.guoqi365\.com\/1\.1\/functions\/getUserInfo requires-body=true, script-path=https://raw.githubusercontent.com/2thcmoon/Loon/Scripts/main/guoqila.js
+
+
+[MITM]
+hostname = api.guoqi365.com
