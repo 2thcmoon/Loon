@@ -8,7 +8,7 @@ Widgetsmith、vision、Percento、Airmail、Usage、pdfviewer、Spark、谜底�
 #!author=ddgksf2021
 
 [Script]
-http-response ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/*) requires-body=true, https://github.com/2thcmoon/Loon/raw/main/Scripts/revenuecat.js,tag=RevenueCat
+http-response ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/*) requires-body=true, script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/revenuecat.js,tag=RevenueCat
 
 [MITM]
 hostname=api.revenuecat.com
