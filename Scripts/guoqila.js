@@ -13,7 +13,7 @@ let responseData = {
         "desc": "baby love you"
       },
       "locked": false,
-      "expires_date": "1888888888888888"
+      "expires_date": "4092630181000"
     },
     "code": 1
   }
@@ -28,7 +28,7 @@ if (i && i.result && i.result.data) {
   i.result.data.locked = false;
   i.result.data.name = "baby";
   i.result.data.desc = "baby love you";
-  i.result.data.expires_date = "1888888888888888";
+  i.result.data.expires_date = "4092630181000";
 
   if (i.result.data.event && !i.result.data.event.icon.startsWith("https://raw.githubusercontent.com/Yu9191/-/main/nv5.PNG")) {
     i.result.data.event.icon = "https://raw.githubusercontent.com/Yu9191/-/main/nv5.PNG";
