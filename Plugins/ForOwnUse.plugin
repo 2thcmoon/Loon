@@ -35,14 +35,12 @@ http-response ^https:\/\/claritywallpaper\.com\/clarity\/api\/(userInfo|special\
 # ✅ Picsart
 http-response ^https?:\/\/api\.meiease\.cn\/shop\/subscription\/validate script-path=https://github.com/ddgksf2013/dev/raw/main/PicsartProCrack.js, requires-body=true, tag=Picsart
 # ✅ 搜图神器
-http-response http:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/account\/token script-path=https://github.com/Alexzzz6/Loon/raw/main/Scripts/stsq.js, requires-body=true, timeout=10, tag=搜图神器
+http-response http:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/account\/token script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/soutu.js, requires-body=true, timeout=10, tag=搜图神器
 # ✅ 黄油相机
 http-response ^https?:\/\/api4\.bybutter\.com\/v4\/(users\/me$|shop\/me\/privileges$) script-path=https://github.com/ddgksf2013/dev/raw/main/BybutterProCrack.js, requires-body=true, tag=黄油相机
 
 
 #>>>>>>>>>>>>>>>>工具类VIP
-# ✅ TopWidgets
-http-response ^https?:\/\/.*xiaozujian\.com\/api\/app\/config\/userConfig script-path=https://github.com/ddgksf2013/dev/raw/main/TopwidgetsProCrack.js, requires-body=true, tag=TopWidgets
 # ✅ 百度网盘(倍速)
 http-response https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user script-path=https://github.com/ddgksf2013/Scripts/raw/master/bdcloud.js, requires-body=true, tag=百度网盘
 # ✅ WPS(国区)
@@ -57,7 +55,7 @@ http-response ^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property
 
 #>>>>>>>>>>>>>>>>自行添加
 # ✅ Focos解锁会员
-http-response ^https?:\/\/focos\.oracle\.bendingspoonsapps\.com\/v\d\/(users\/setup|purchases\/verify\/apple) script-path=https://github.com/Alexzzz6/Loon/raw/main/Scripts/focos.js, requires-body=true, tag=Focos
+http-response ^https?:\/\/focos\.oracle\.bendingspoonsapps\.com\/v\d\/(users\/setup|purchases\/verify\/apple) script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/focos.js, requires-body=true, tag=Focos
 # ✅ 过期啦解锁会员
 http-response ^https:\/\/api\.guoqi365\.com\/1\.1\/functions\/getUserInfo script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/guoqila.js, requires-body=true, tag=过期啦
 # ✅ Emby解锁会员
@@ -66,4 +64,4 @@ http-response ^https?:\/\/mb3admin.com\/admin\/service\/registration\/validateDe
 http-response ^https:\/\/flomoapp\.com\/api\/v1\/user\/me requires-body=true, script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/flomo.js,tag=Flomo
 
 [MITM]
-hostname = app.yiyan.art, lchttpapi.xczim.com, api.tipsoon.com, mobile.flightradar24.com, ipadcms.caixin.com, server.zbisq.com, awvp.aoscdn.com, *.xiuxiu.meitu.com, claritywallpaper.com, api.meiease.cn, wallpaper.soutushenqi.com, api4.bybutter.com, *xiaozujian, pan.baidu.com, *wps*, restore-access.indream.app, appraven.net, ap*.intsig.net, focos.oracle.bendingspoonsapps.com, api.guoqi365.com, mb3admin.com, flomoapp.com
+hostname = app.yiyan.art, lchttpapi.xczim.com, api.tipsoon.com, mobile.flightradar24.com, ipadcms.caixin.com, server.zbisq.com, awvp.aoscdn.com, *.xiuxiu.meitu.com, claritywallpaper.com, api.meiease.cn, wallpaper.soutushenqi.com, api4.bybutter.com, pan.baidu.com, *wps*, restore-access.indream.app, appraven.net, ap*.intsig.net, focos.oracle.bendingspoonsapps.com, api.guoqi365.com, mb3admin.com, flomoapp.com
