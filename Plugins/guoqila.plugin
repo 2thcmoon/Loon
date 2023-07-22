@@ -2,7 +2,7 @@
 #!desc=过期啦会员解锁
 
 [Script]
-http-response ^https:\/\/api\.guoqi365\.com\/1\.1\/functions\/getUserInfo requires-body=true, script-path=https://raw.githubusercontent.com/2thcmoon/Loon/Scripts/main/guoqila.js
+http-response ^https:\/\/api\.guoqi365\.com\/1\.1\/functions\/getUserInfo requires-body=true, script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/guoqila.js
 
 
 [MITM]
