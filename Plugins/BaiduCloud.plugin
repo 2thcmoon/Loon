@@ -14,9 +14,9 @@
 
 [Script]
 # > 百度网盘_开屏广告@ddgksf2013
-http-response ^https?:\/\/pan\.baidu\.com\/api\/getsyscfg script-path=https://gist.githubusercontent.com/ddgksf2013/f43026707830c7818ee3ba624e383c8d/raw/baiduCloud.vip.js, requires-body=true, timeout=10, tag=baiduCloud.vip
+http-response ^https?:\/\/pan\.baidu\.com\/api\/getsyscfg script-path=https://gist.githubusercontent.com/ddgksf2013/f43026707830c7818ee3ba624e383c8d/raw/baiduCloud.vip.js, requires-body=true, timeout=10, tag=baiduCloud.vip1
 # > 百度网盘_会员权益@ddgksf2013
-http-response ^https:\/\/pan\.baidu\.com\/rest\/.*\/membership\/user\?app_id script-path=https://gist.githubusercontent.com/ddgksf2013/f43026707830c7818ee3ba624e383c8d/raw/baiduCloud.vip.js, requires-body=true, timeout=10, tag=baiduCloud.vip
+http-response ^https:\/\/pan\.baidu\.com\/rest\/.*\/membership\/user\?app_id script-path=https://gist.githubusercontent.com/ddgksf2013/f43026707830c7818ee3ba624e383c8d/raw/baiduCloud.vip.js, requires-body=true, timeout=10, tag=baiduCloud.vip2
 
 [MITM]
 hostname = pan.baidu.com
