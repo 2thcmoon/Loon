@@ -41,8 +41,6 @@ http-response ^https?:\/\/api4\.bybutter\.com\/v4\/(users\/me$|shop\/me\/privile
 
 
 #>>>>>>>>>>>>>>>>工具类VIP
-# ✅ 百度网盘(倍速)
-http-response https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user script-path=https://github.com/ddgksf2013/Scripts/raw/master/bdcloud.js, requires-body=true, tag=百度网盘
 # ✅ WPS(国区)
 http-response ^https:\/\/(vas|account)\.wps\.cn\/(query\/api\/v\d\/list_purchase_info|api\/users\/\d+\/overview) script-path=https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Premium/WPSOffice.js, requires-body=true, tag=WPS
 # ✅ Nicegram
@@ -64,4 +62,4 @@ http-response ^https?:\/\/mb3admin.com\/admin\/service\/registration\/validateDe
 http-response ^https:\/\/flomoapp\.com\/api\/v1\/user\/me requires-body=true, script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/flomo.js,tag=Flomo
 
 [MITM]
-hostname = app.yiyan.art, lchttpapi.xczim.com, api.tipsoon.com, mobile.flightradar24.com, ipadcms.caixin.com, server.zbisq.com, awvp.aoscdn.com, *.xiuxiu.meitu.com, api.posters.meitu.com, api-sub.meitu.com, claritywallpaper.com, api.meiease.cn, wallpaper.soutushenqi.com, api4.bybutter.com, pan.baidu.com, *wps*, restore-access.indream.app, appraven.net, ap*.intsig.net, focos.oracle.bendingspoonsapps.com, api.guoqi365.com, mb3admin.com, flomoapp.com
+hostname = app.yiyan.art, lchttpapi.xczim.com, api.tipsoon.com, mobile.flightradar24.com, ipadcms.caixin.com, server.zbisq.com, awvp.aoscdn.com, *.xiuxiu.meitu.com, api.posters.meitu.com, api-sub.meitu.com, claritywallpaper.com, api.meiease.cn, wallpaper.soutushenqi.com, api4.bybutter.com, *wps*, restore-access.indream.app, appraven.net, ap*.intsig.net, focos.oracle.bendingspoonsapps.com, api.guoqi365.com, mb3admin.com, flomoapp.com

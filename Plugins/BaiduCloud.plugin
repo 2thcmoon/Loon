@@ -1,0 +1,22 @@
+#!name= 墨鱼自用百度网盘SVIP+去开屏广告脚本
+#!desc= 百度网盘SVIP（解锁倍速超清会员权益）+去开屏广告、通用广告
+#!homepage= https://t.me/ddgksf2021
+#!author= @ddgksf2013
+#!icon= 
+
+[Rewrite]
+# > 百度网盘_设置信息流@ddgksf2013
+^https?:\/\/pan\.baidu\.com\/act\/v\d\/(bchannel|welfare)\/list reject
+# > 百度网盘_通用广告@ddgksf2013
+^https?:\/\/pan\.baidu\.com\/rest\/.*\/pcs\/ad reject
+# > 百度网盘_活动推广@ddgksf2013
+^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry reject
+
+[Script]
+# > 百度网盘_开屏广告@ddgksf2013
+http-response ^https?:\/\/pan\.baidu\.com\/api\/getsyscfg script-path=https://gist.githubusercontent.com/ddgksf2013/f43026707830c7818ee3ba624e383c8d/raw/baiduCloud.vip.js, requires-body=true, timeout=10, tag=baiduCloud.vip
+# > 百度网盘_会员权益@ddgksf2013
+http-response ^https:\/\/pan\.baidu\.com\/rest\/.*\/membership\/user\?app_id script-path=https://gist.githubusercontent.com/ddgksf2013/f43026707830c7818ee3ba624e383c8d/raw/baiduCloud.vip.js, requires-body=true, timeout=10, tag=baiduCloud.vip
+
+[MITM]
+hostname = pan.baidu.com
