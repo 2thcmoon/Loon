@@ -13,10 +13,8 @@
 ^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry reject
 
 [Script]
-# > 百度网盘_开屏广告@ddgksf2013
-http-response ^https?:\/\/pan\.baidu\.com\/api\/getsyscfg script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/baiducloud.js, requires-body=true, timeout=10, tag=baiduCloud.vip1
-# > 百度网盘_会员权益@ddgksf2013
-http-response ^https:\/\/pan\.baidu\.com\/rest\/.*\/membership\/user\?app_id script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/baiducloud.js, requires-body=true, timeout=10, tag=baiduCloud.vip2
+http-response ^https?:\/\/pan\.baidu\.com\/api\/getsyscfg script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/baiducloud.js, requires-body=true, timeout=10, tag=百度网盘_开屏广告@ddgksf2013
+http-response ^https:\/\/pan\.baidu\.com\/rest\/.*\/membership\/user\?app_id script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/baiducloud.js, requires-body=true, timeout=10, tag=百度网盘_会员权益@ddgksf2013
 
 [MITM]
 hostname = pan.baidu.com
