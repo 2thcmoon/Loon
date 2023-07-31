@@ -29,7 +29,7 @@ chxm1023 = {
       "state": "paid",
       "active": true,
       "subscription_data":
-        "{"stripe_event_id":"","charge_id":""}",
+        "{&#34;stripe_event_id&#34;:&#34;&#34;,&#34;charge_id&#34;:&#34;&#34;}",
       "payment_type": "alipay",
       "stripe_event_id": "",
       "amount": 29900,
