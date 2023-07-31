@@ -17,9 +17,9 @@ hostname = notability.com
 *************************************/
 
 
-var ojbk = JSON.parse($response.body);
+var obj = JSON.parse($response.body);
 
-ojbk = {
+obj = {
   "data": {
     "processAppleReceipt": {
       "error": 0,
@@ -44,4 +44,4 @@ ojbk = {
   }
 };
 
-$done({body: JSON.stringify(ojbk)});
+$done({body: JSON.stringify(obj)});

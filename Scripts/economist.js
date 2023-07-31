@@ -17,9 +17,9 @@ hostname = api.hummingbird.businessreview.global
 *************************************/
 
 
-var chxm1023 = JSON.parse($response.body);
+var obj = JSON.parse($response.body);
 
-chxm1023 = {
+obj = {
   "subscription_type": "Paid",
   "account_member_since": "Jul 17th, 2023",
   "subscriptions": [
@@ -60,4 +60,4 @@ chxm1023 = {
   "error": false
 };
 
-$done({ body: JSON.stringify(chxm1023) });
+$done({ body: JSON.stringify(obj) });
