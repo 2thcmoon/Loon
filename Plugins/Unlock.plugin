@@ -66,6 +66,8 @@ http-response ^https:\/\/flomoapp\.com\/api\/v1\/user\/me requires-body=true, sc
 http-response ^https:\/\/api\.hummingbird\.businessreview\.global\/api\/subscriptions\/get_active script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/economist.js, requires-body=true, timeout=10, tag=经济学人
 # ✅ Grammarly解锁会员
 http-response ^https?:\/\/subscription\.grammarly\.com\/api\/v1\/subscription$ script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/grammarly.js, requires-body=1, tag=Grammarly解锁订阅
+# ✅ FilmicPro解锁会员
+http-response ^https:\/\/filmicpro\.oracle\.bendingspoonsapps\.com\/v\d\/users\/setup script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/filmicpro.js, requires-body=true, timeout=10, tag=FilmicPro
 
 [MITM]
-hostname = app.yiyan.art, lchttpapi.xczim.com, api.tipsoon.com, mobile.flightradar24.com, ipadcms.caixin.com, server.zbisq.com, awvp.aoscdn.com, *.xiuxiu.meitu.com, claritywallpaper.com, api.meiease.cn, wallpaper.soutushenqi.com, api4.bybutter.com, *wps*, restore-access.indream.app, v2.appraven.net, ap*.intsig.net, focos.oracle.bendingspoonsapps.com, api.guoqi365.com, mb3admin.com, flomoapp.com, api.hummingbird.businessreview.global, subscription.grammarly.com
+hostname = app.yiyan.art, lchttpapi.xczim.com, api.tipsoon.com, mobile.flightradar24.com, ipadcms.caixin.com, server.zbisq.com, awvp.aoscdn.com, *.xiuxiu.meitu.com, claritywallpaper.com, api.meiease.cn, wallpaper.soutushenqi.com, api4.bybutter.com, *wps*, restore-access.indream.app, v2.appraven.net, ap*.intsig.net, focos.oracle.bendingspoonsapps.com, api.guoqi365.com, mb3admin.com, flomoapp.com, api.hummingbird.businessreview.global, subscription.grammarly.com, filmicpro.oracle.bendingspoonsapps.com
