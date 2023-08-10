@@ -1,11 +1,13 @@
-#!name=RevenueCat多合一插件
-#!desc=Pixelmator、Planny、Gear、图图记账、Aphrodite、Apollo、MoneyThings、目标地图、Audiomack、1Blocker、Scanner Pro、Darkroom、谜底时钟、Pillow、VSCO、Grow、WhiteCloud、Fin、奇妙组件、Widgetsmith、vision、Percento、Airmail、Usage、pdfviewer、Spark、谜底黑胶、ColorWidgets、手机硬件管家、WidgetArt、卡片馆
-#!icon= 
-#!homepage=https://t.me/ddgksf2021
-#!author=ddgksf2021
+#!name = RevenueCat多合一插件
+#!desc = 脚本解锁合集，已解锁APP列表请见说明
+#!openUrl = https://github.com/Guding88/Script/blob/main/Readme.md
+#!author = Guding
+#!homepage = https://t.me/Guding88
+#!icon = 
 
 [Script]
-http-response ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/*) requires-body=true, script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/revenuecat.js, tag=RevenueCat
+http-response ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) script-path=https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Revenuecat.js, requires-body=true, tag=Revenuecat合集
+#http-request ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) script-path=https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Revenuecat.js, tag=Revenuecat清缓存
 
 [MITM]
 hostname=api.revenuecat.com
