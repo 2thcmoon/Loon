@@ -39,4 +39,4 @@ if (url["indexOf"](viq) != -1) {
     body = JSON["stringify"](obj)
 }
 
-$done({body});
+$done({ body });

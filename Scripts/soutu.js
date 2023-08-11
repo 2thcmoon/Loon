@@ -29,4 +29,4 @@ obj.data.pcVipPastDueTime = 4092599349000;
 obj.data.vitalityVipPastDueTime = 4092599349000;
 obj.data.vitalityPcVipPastDueTime = 4092599349000;
 
-$done({body : JSON.stringify(obj)});
+$done({ body: JSON.stringify(obj) });
