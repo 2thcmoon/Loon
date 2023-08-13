@@ -12,7 +12,7 @@ hostname = cubox.cc, cubox.pro
 var guding = JSON.parse($response.body);
 guding.data.isExpire = false;
 guding.data.expireTime ="2099-12-31T06:06:06Z";
-guding.data.nickName ="https://t.me/Guding88";
+guding.data.nickName ="2thcmoon";
 guding.data.level = 1;
 guding.data.paymentSource = 9;
 $done({ body: JSON.stringify(guding) });
