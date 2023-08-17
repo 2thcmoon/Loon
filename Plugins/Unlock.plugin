@@ -67,8 +67,7 @@ http-response ^https:\/\/api\.hummingbird\.businessreview\.global\/api\/subscrip
 # ✅ Grammarly解锁会员
 http-response ^https?:\/\/subscription\.grammarly\.com\/api\/v1\/subscription$ script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/grammarly.js, requires-body=true, tag=Grammarly
 # ✅ 用药助手解锁会员
-http-response ^https://newdrugs.dxy.cn script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/yyzs.js, requires-body=true, tag=用药助手
-http-response ^https://newdrugs.dxy.cn script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/yyzs2.js, requires-body=true, timeout=10, tag=用药助手2
+http-request ^https://newdrugs.dxy.cn script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/yyzsck.js, requires-body=true, tag=用药助手
 # ✅ 泼辣修图解锁会员
 http-response ^https?:\/\/.*\/v1\/payments\/(appleiap\/receipts\/confirmation|profiles\/@me\/subscription) script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/pola.js, requires-body=true, tag=泼辣修图
 # ✅ Cubox解锁会员
