@@ -1,56 +1,93 @@
-/*************************************
+/***********************************
 
-项目名称：Goodnotes6
-下载地址：https://t.cn/A6K6ZSZS
-脚本作者：chxm1023
-电报频道：https://t.me/chxm1023
-使用声明：⚠️仅供参考，🈲转载与售卖！
+> 应用名称：GoodNotes6
+> 软件版本：6.0.1
+> 脚本作者：ddgksf2013
+> 微信账号：墨鱼手记
+> 解锁说明：解锁高级会员权限
+> 更新时间：2023-08-11
+> 通知频道：https://t.me/ddgksf2021
+> 贡献投稿：https://t.me/ddgksf2013_bot
+> 问题反馈：ddgksf2013@163.com
+> 特别提醒：如需转载请注明出处，谢谢合作！
+> 特别说明：⚠️⚠️⚠️
+          本脚本仅供学习交流使用，禁止转载售卖
+          ⚠️⚠️⚠️
 
-**************************************
 
 [rewrite_local]
-^https:\/\/isi\.csan\.goodnotes\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/goodnotes6.js
-^https:\/\/isi\.csan\.goodnotes\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-request-header https://raw.githubusercontent.com/chxm1023/Rewrite/main/goodnotes6.js
+  
+# ～GoodNotes6☆解锁会员权限（2023-08-11）@ddgksf2013
+^https:\/\/isi\.csan\.goodnotes\.com\/.+\/(receipts$|subscribers\/[^/]+$) url script-echo-response https://github.com/ddgksf2013/MoYu/raw/master/GoodNotesProCrack.js
+^https:\/\/isi\.csan\.goodnotes\.com\/.+\/subscribers\/[^/]+/(offerings|attributes)$ url request-header (\r\n)X-RevenueCat-ETag:.+(\r\n) request-header $1X-RevenueCat-ETag:$2
 
-[mitm]
-hostname = isi.csan.goodnotes.com
+[mitm] 
 
-*************************************/
+hostname=isi.csan.goodnotes.com
 
-
-const chxm1023 = {};
-const chxm1024 = JSON.parse(typeof $response != "undefined" && $response.body || null);
-
-const namea = "apple_access";
-const nameb = "crossplatform_access";
-const jsid = "com.goodnotes.gn6_one_time_unlock_3999";
+***********************************/
 
 
-if (typeof $response == "undefined") {
-    delete $request.headers["x-revenuecat-etag"];
-    delete $request.headers["X-RevenueCat-ETag"];
-    chxm1023.headers = $request.headers;
-} else if (chxm1024 && chxm1024.subscriber) {
-    data = {
-        "Author": "chxm1023",
-        "Telegram": "https://t.me/chxm1023",
-        "warning": "仅供学习，禁止转载或售卖",
-        "purchase_date": "2022-09-09T09:09:09Z"
-    };
-    chxm1024.subscriber.subscriptions[(jsid)] = {
-        "Author": "chxm1023",
-        "Telegram": "https://t.me/chxm1023",
-        "warning": "仅供学习，禁止转载或售卖",
-        "original_purchase_date": "2022-09-09T09:09:09Z",
-        "purchase_date": "2022-09-09T09:09:09Z",
-        "store": "app_store",
-        "ownership_type": "PURCHASED"
-    };
-    chxm1024.subscriber.entitlements[(namea)] = JSON.parse(JSON.stringify(data));
-    chxm1024.subscriber.entitlements[(nameb)] = JSON.parse(JSON.stringify(data));
-    chxm1024.subscriber.entitlements[(namea)].product_identifier = (jsid);
-    chxm1024.subscriber.entitlements[(nameb)].product_identifier = (jsid);
-    chxm1023.body = JSON.stringify(chxm1024);
-}
 
-$done(chxm1023);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var ddgksf2013={
+    "request_date_ms":1691760087616,
+    "request_date":"2023-08-11T13:21:27Z",
+    "subscriber":{
+        "non_subscriptions":{
+            "com.goodnotes6.one_time_unlock":[
+                {
+                    "is_sandbox":false,
+                    "ownership_type":"PURCHASED",
+                    "id":"46ab585dbc",
+                    "original_purchase_date":"2022-11-10T23:58:09Z",
+                    "store_transaction_id":"300001271068792",
+                    "purchase_date":"2023-08-10T23:58:09Z",
+                    "store":"app_store"
+                }
+            ]
+        },
+        "first_seen":"2023-08-09T13:55:38Z",
+        "original_application_version":"1578030.383984727",
+        "other_purchases":{
+            "com.goodnotes6.one_time_unlock":{
+                "purchase_date":"2023-08-10T23:58:09Z"
+            }
+        },
+        "management_url":null,
+        "subscriptions":{
+
+        },
+        "entitlements":{
+            "apple_access":{
+                "grace_period_expires_date":null,
+                "purchase_date":"2023-08-10T14:16:41Z",
+                "product_identifier":"com.goodnotes6.one_time_unlock",
+                "expires_date":null
+            }
+        },
+        "original_purchase_date":"2022-04-05T10:43:53Z",
+        "original_app_user_id":"1d6316b8-aab7-4c1f-9dee-df471814b03e",
+        "last_seen":"2023-08-11T13:18:22Z",
+		"Warning":"本脚本仅供学习交流使用，禁止转载售卖"
+    }
+};
+$done({body:JSON.stringify(ddgksf2013)});
