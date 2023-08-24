@@ -16,15 +16,10 @@
 
 
 [rewrite_local]
-<<<<<<< HEAD
   
 # ～GoodNotes6☆解锁会员权限（2023-08-11）@ddgksf2013
 ^https:\/\/isi\.csan\.goodnotes\.com\/.+\/(receipts$|subscribers\/[^/]+$) url script-echo-response https://github.com/ddgksf2013/MoYu/raw/master/GoodNotesProCrack.js
 ^https:\/\/isi\.csan\.goodnotes\.com\/.+\/subscribers\/[^/]+/(offerings|attributes)$ url request-header (\r\n)X-RevenueCat-ETag:.+(\r\n) request-header $1X-RevenueCat-ETag:$2
-=======
-^https:\/\/isi\.csan\.goodnotes\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://github.com/2thcmoon/Loon/raw/main/Scripts/goodnotes.js
-^https:\/\/isi\.csan\.goodnotes\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-request-header https://github.com/2thcmoon/Loon/raw/main/Scripts/goodnotes.js
->>>>>>> 5e8591dba23fa9027a31cac169c18ed6b9d8109c
 
 [mitm] 
 
@@ -36,7 +31,6 @@ hostname=isi.csan.goodnotes.com
 
 
 
-<<<<<<< HEAD
 
 
 
@@ -97,6 +91,3 @@ var ddgksf2013={
     }
 };
 $done({body:JSON.stringify(ddgksf2013)});
-=======
-$done(chxm1023);
->>>>>>> 5e8591dba23fa9027a31cac169c18ed6b9d8109c
