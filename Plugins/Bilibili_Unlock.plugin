@@ -9,7 +9,7 @@
 
 [Script]
 # 解锁画质
-http-response ^https:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\? script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Bilibili/Bilibili_remove_ads.js, requires-body = true, tag = 解锁画质
+http-response ^https:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\? script-path = https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js, requires-body = true, tag = 解锁画质
 
 [MitM]
 hostname = app.bilibili.com
