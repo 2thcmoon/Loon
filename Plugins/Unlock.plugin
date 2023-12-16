@@ -12,8 +12,6 @@
 http-response ^https:\/\/app\.yiyan\.art\/yiyan\/ script-path=https://github.com/ddgksf2013/dev/raw/main/YiYanProCrack.js, requires-body=true, tag=一言
 # ✅ 西窗烛(need登录)
 http-response https://lchttpapi.xczim.com/* script-path=https://github.com/ddgksf2013/dev/raw/main/XiChuangZhuProCrack.js, requires-body=true, tag=西窗烛
-# ✅ 简讯
-http-response ^https?:\/\/api\.tipsoon\.com\/api\/v1\/user\/info script-path=https://github.com/ddgksf2013/dev/raw/main/JianXunProCrack.js, requires-body=true, tag=简讯
 # ✅ Flightradar24
 http-response ^https://mobile.flightradar24.com/mobile/(user-session|subscribe) script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/Flightradar24.js, requires-body=true, tag=Flightradar24
 
@@ -28,25 +26,17 @@ http-response http://ipadcms.caixin.com/tmp/articles/* script-path=https://githu
 #>>>>>>>>>>>>>>>>图影类VIP
 # ✅ Fimo(need登录)
 http-response ^https?:\/\/server\.zbisq\.com\/fimo-user script-path=https://raw.githubusercontent.com/ddgksf2013/MoYu/master/fimo.js, requires-body=true, tag=Fimo
-# ✅ 傲软抠图(need登录)
-http-response https://awvp.aoscdn.com/base/vip/v2/vips script-path=https://raw.githubusercontent.com/ddgksf2013/MoYu/master/apowersoft.js, requires-body=true, tag=傲软抠图
 # ✅ 美图秀秀
-http-response ^https?:\/\/((h5|api)\.xiuxiu|api-sub|api\.posters)\.meitu\.com\/.+\/(vip|user|h\d|center|home) script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/mtxx.js, requires-body=true, tag=美图秀秀
-# ✅ 克拉壁纸
-http-response ^https:\/\/claritywallpaper\.com\/clarity\/api\/(userInfo|special\/queryByCatalogAll|picture\/search|catalog\/listAll|top\/list|picture\/date\?date) script-path=https://github.com/ddgksf2013/dev/raw/main/ClarityProCrack.js, requires-body=true, tag=克拉壁纸
+http-response ^https?:\/\/((h5|api)\.xiuxiu|api-sub|api\.posters)\.meitu\.com\/.+\/(vip|user|h\d|center|home) script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/mtxx.js, requires-body=true, timeout=10, tag=美图秀秀
 # ✅ Picsart
 http-response ^https?:\/\/api\.meiease\.cn\/shop\/subscription\/validate script-path=https://github.com/ddgksf2013/dev/raw/main/PicsartProCrack.js, requires-body=true, tag=Picsart
 # ✅ 搜图神器
-http-response http:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/account\/token script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/soutu.js, requires-body=true, timeout=10, tag=搜图神器
-# ✅ 黄油相机
-http-response ^https?:\/\/api4\.bybutter\.com\/v4\/(users\/me$|shop\/me\/privileges$) script-path=https://github.com/ddgksf2013/dev/raw/main/BybutterProCrack.js, requires-body=true, tag=黄油相机
+http-response ^https?:\/\/.*\.soutushenqi\.com\/(api\/.+\/account\/(token|info)|cykj_community|v\d\/home\/dialog) script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/soutu.js, requires-body=true, timeout=10, tag=搜图神器
 
 
 #>>>>>>>>>>>>>>>>工具类VIP
 # ✅ WPS(国区)
 http-response ^https:\/\/(vas|account)\.wps\.cn\/(query\/api\/v\d\/list_purchase_info|api\/users\/\d+\/overview) script-path=https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Premium/WPSOffice.js, requires-body=true, tag=WPS
-# ✅ Nicegram
-http-response https://nicegram.cloud/api/v6/user/info script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/Nicegram.js, requires-body=true, timeout=10, tag=Nicegram
 # ✅ Appraven(美化)
 http-response ^https?:\/\/v2\.appraven\.net\/appraven\/graphql script-path=https://gist.githubusercontent.com/ddgksf2013/562f8fd6a40be92d7c8b358aa25eab3f/raw/appraven.vip.js, requires-body=true, tag=Appraven
 # ✅ 扫描全能王
@@ -56,18 +46,12 @@ http-response ^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property
 #>>>>>>>>>>>>>>>>自行添加
 # ✅ Filmicpro，Focos，Focos live，Splice，30 Day Fitness，Sleep，Remini，Yoga Wave，Firstlight，Doubletake解锁会员
 http-response ^https?:\/\/.*\.oracle\.bendingspoonsapps\.com\/v\d\/(users\/.+|purchases\/verify) script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/bending.js, requires-body=true, tag=BendingSpoonsApps解锁
-# ✅ 过期啦解锁会员
-http-response ^https:\/\/api\.guoqi365\.com\/1\.1\/functions\/getUserInfo script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/guoqila.js, requires-body=true, tag=过期啦
 # ✅ Emby解锁会员
 http-response ^https?:\/\/mb3admin.com\/admin\/service\/registration\/validateDevice requires-body=true, script-path=https://raw.githubusercontent.com/Tartarus2014/Script/master/Emby.js,tag=Emby Unlock
-# ✅ 经济学人解锁会员
-http-response ^https:\/\/api\.hummingbird\.businessreview\.global\/api\/subscriptions\/get_active script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/economist.js, requires-body=true, timeout=10, tag=经济学人
-# ✅ Grammarly解锁会员
-http-response ^https?:\/\/subscription\.grammarly\.com\/api\/v1\/subscription$ script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/grammarly.js, requires-body=true, tag=Grammarly
 # ✅ 泼辣修图解锁会员
 http-response ^https?:\/\/.*\/v1\/payments\/(appleiap\/receipts\/confirmation|profiles\/@me\/subscription) script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/pola.js, requires-body=true, tag=泼辣修图
 # ✅ Cubox解锁会员
 http-response ^https?:\/\/cubox\.(cc|pro)\/c\/api\/userInfo script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/cubox.js, requires-body=true, timeout=10, tag=Cubox
 
 [MITM]
-hostname = app.yiyan.art, lchttpapi.xczim.com, api.tipsoon.com, mobile.flightradar24.com, ipadcms.caixin.com, server.zbisq.com, awvp.aoscdn.com, *.xiuxiu.meitu.com, api.posters.meitu.com, api-sub.meitu.com, claritywallpaper.com, api.meiease.cn, wallpaper.soutushenqi.com, api4.bybutter.com, *wps*, nicegram.cloud, v2.appraven.net, ap*.intsig.net, *.oracle.bendingspoonsapps.com, api.guoqi365.com, mb3admin.com, api.hummingbird.businessreview.global, subscription.grammarly.com, api.polaxiong.com, cubox.cc, cubox.pro
+hostname = app.yiyan.art, lchttpapi.xczim.com, mobile.flightradar24.com, ipadcms.caixin.com, server.zbisq.com, *.xiuxiu.meitu.com, api.posters.meitu.com, api-sub.meitu.com, api.meiease.cn, *.soutushenqi.com, *wps*, v2.appraven.net, ap*.intsig.net, *.oracle.bendingspoonsapps.com, mb3admin.com, api.polaxiong.com, cubox.cc, cubox.pro
