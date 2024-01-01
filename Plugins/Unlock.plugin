@@ -52,6 +52,8 @@ http-response ^https?:\/\/mb3admin.com\/admin\/service\/registration\/validateDe
 http-response ^https?:\/\/.*\/v1\/payments\/(appleiap\/receipts\/confirmation|profiles\/@me\/subscription) script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/pola.js, requires-body=true, tag=泼辣修图
 # ✅ Cubox解锁会员
 http-response ^https?:\/\/cubox\.(cc|pro)\/c\/api\/userInfo script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/cubox.js, requires-body=true, timeout=10, tag=Cubox
+# ✅ Slidebox解锁
+http-response ^https?:\/\/.*-slidebox-ios-prod\.cloudfunctions\.net\/api_v1 script-path = https://gitlab.com/isous/loonresource/-/raw/main/Script/Slidebox/Slidebox_crack.js, requires-body = true, tag = Slidebox解锁
 
 [MITM]
-hostname = app.yiyan.art, lchttpapi.xczim.com, mobile.flightradar24.com, ipadcms.caixin.com, server.zbisq.com, *.xiuxiu.meitu.com, api.posters.meitu.com, api-sub.meitu.com, api.meiease.cn, *.soutushenqi.com, *wps*, v2.appraven.net, ap*.intsig.net, *.oracle.bendingspoonsapps.com, mb3admin.com, api.polaxiong.com, cubox.cc, cubox.pro
+hostname = app.yiyan.art, lchttpapi.xczim.com, mobile.flightradar24.com, ipadcms.caixin.com, server.zbisq.com, *.xiuxiu.meitu.com, api.posters.meitu.com, api-sub.meitu.com, api.meiease.cn, *.soutushenqi.com, *wps*, v2.appraven.net, ap*.intsig.net, *.oracle.bendingspoonsapps.com, mb3admin.com, api.polaxiong.com, cubox.cc, cubox.pro, *-slidebox-ios-prod.cloudfunctions.net
