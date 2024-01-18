@@ -21,11 +21,9 @@ http-response ^https://mobile.flightradar24.com/mobile/(user-session|subscribe) 
 # ✅ 财新周刊
 http-response http://ipadcms.caixin.com/tmp/articles/* script-path=https://github.com/ddgksf2013/dev/raw/main/CaiXinZhouKanProCrack.js, requires-body=true, tag=财新周刊
 
-
-
 #>>>>>>>>>>>>>>>>图影类VIP
 # ✅ Fimo(need登录)
-http-response ^https?:\/\/server\.zbisq\.com\/fimo-user script-path=https://raw.githubusercontent.com/ddgksf2013/MoYu/master/fimo.js, requires-body=true, tag=Fimo
+http-response ^https?:\/\/server\.zbisq\.com\/fimo-user script-path=https://raw.githubusercontent.com/ddgksf2013/MoYu/master/FimoProCrack.js, requires-body=true, tag=Fimo
 # ✅ 美图秀秀
 http-response ^https?:\/\/((h5|api)\.xiuxiu|api-sub|api\.posters)\.meitu\.com\/.+\/(vip|user|h\d|center|home) script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/mtxx.js, requires-body=true, timeout=10, tag=美图秀秀
 # ✅ Picsart
@@ -53,7 +51,9 @@ http-response ^https?:\/\/.*\/v1\/payments\/(appleiap\/receipts\/confirmation|pr
 # ✅ Cubox解锁会员
 http-response ^https?:\/\/cubox\.(cc|pro)\/c\/api\/userInfo script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/cubox.js, requires-body=true, timeout=10, tag=Cubox
 # ✅ Slidebox解锁
-http-response ^https?:\/\/.*-slidebox-ios-prod\.cloudfunctions\.net\/api_v1 script-path = https://gitlab.com/isous/loonresource/-/raw/main/Script/Slidebox/Slidebox_crack.js, requires-body = true, tag = Slidebox解锁
+http-response ^https?:\/\/.*-slidebox-ios-prod\.cloudfunctions\.net\/api_v1 script-path = https://gitlab.com/isous/loonresource/-/raw/main/Script/Slidebox/Slidebox_crack.js, requires-body = true, tag = Slidebox
+# ✅ 一个木函解锁
+http-response https://uapi.woobx.cn/user/profile script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/yigemuhan.js, requires-body=true, timeout=60, tag=一个木函
 
 [MITM]
-hostname = app.yiyan.art, lchttpapi.xczim.com, mobile.flightradar24.com, ipadcms.caixin.com, server.zbisq.com, *.xiuxiu.meitu.com, api.posters.meitu.com, api-sub.meitu.com, api.meiease.cn, *.soutushenqi.com, *wps*, v2.appraven.net, ap*.intsig.net, *.oracle.bendingspoonsapps.com, mb3admin.com, api.polaxiong.com, cubox.cc, cubox.pro, *-slidebox-ios-prod.cloudfunctions.net
+hostname = app.yiyan.art, lchttpapi.xczim.com, mobile.flightradar24.com, ipadcms.caixin.com, server.zbisq.com, *.xiuxiu.meitu.com, api.posters.meitu.com, api-sub.meitu.com, api.meiease.cn, *.soutushenqi.com, *wps*, v2.appraven.net, ap*.intsig.net, *.oracle.bendingspoonsapps.com, mb3admin.com, api.polaxiong.com, cubox.cc, cubox.pro, *-slidebox-ios-prod.cloudfunctions.net, uapi.woobx.cn
