@@ -57,7 +57,7 @@ http-response https://uapi.woobx.cn/user/profile script-path=https://raw.githubu
 # ✅ Lightroom
 http-response ^https:\/\/photos\.adobe\.io\/v2\/accounts* requires-body=1,script-path=https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/lightroom.js, requires-body=true, tag=Lightroom
 # ✅ 彩云天气
-http-response ^https?:\/\/biz.cyapi.cn\/(p\/v1\/user_info|v2\/user).*$ script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/cytq.js, requires-body=true, tag=彩云天气
+http-response ^https?:\/\/biz.cyapi.cn\/(p\/v1\/user_info|v2\/user).*$ script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/cytq.js, requires-body=true, tag=彩云天气
 
 [MITM]
 hostname = app.yiyan.art, lchttpapi.xczim.com, mobile.flightradar24.com, ipadcms.caixin.com, server.zbisq.com, *.xiuxiu.meitu.com, api.posters.meitu.com, api-sub.meitu.com, api.meiease.cn, *.soutushenqi.com, pan.baidu.com, *wps*, v2.appraven.net, ap*.intsig.net, *.oracle.bendingspoonsapps.com, mb3admin.com, api.polaxiong.com, cubox.cc, cubox.pro, *-slidebox-ios-prod.cloudfunctions.net, uapi.woobx.cn, photos.adobe.io, biz.cyapi.cn
