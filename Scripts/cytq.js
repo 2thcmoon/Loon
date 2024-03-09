@@ -56,7 +56,7 @@ if (url.indexOf(p2) != -1) {
             "score": 2000,
             "is_xy_auto_renewal": false,
             "is_primary": true,
-            "phone_num": "17083544841",
+            "phone_num": "19971182011",
             "free_trial": 10,
             "last_acted_at": 1699229543.0828011036,
             "vip_type": "s",
@@ -79,7 +79,7 @@ if (url.indexOf(p2) != -1) {
                 "is_login": false
             },
             "device_id": "0D5E89DC-78F7-40A8-9348-E5BD077236C8-1699229500",
-            "name": "https://t.me/GieGie777",
+            "name": "2thcmoon",
             "svip_take_effect": 1,
             "bound_status": {
                 "qq": {
@@ -129,7 +129,7 @@ if (url.indexOf(p2) != -1) {
             "platform_id": "o3rJ_t00r0mxqS6GCVWMaVtEFLUk",
             "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uIjoiNjVkMzY2OTRmY2FjMDgwMDE0NDlkODMzIiwidXNlcl9pZCI6IjVmNWJmYzU3ZDJjNjg5MDAxNGUyNmJiOCIsInZlcnNpb24iOjIsImV4cCI6MTcxNjEyOTE3MiwidmlwX2V4cGlyZWRfYXQiOjAsImlzcyI6IndlYXRoZXIiLCJpYXQiOjE3MDgzNTMxNzIsInN2aXBfZXhwaXJlZF9hdCI6MTg1MTUwMTAzMSwicHJpbWFyeSI6dHJ1ZX0.U_LCYNGl3cbBCpjrnjmxYBAuNFSvNCe3dKIrV1MGpzo",
             "svip_given": 1825,
-            "avatar": "https://avatar.caiyuncdn.com/avatar/39cff6272f6e133d731fc6fda973e533-1708017050091.jpg",
+            "avatar": "",
             "is_vip": true,
             "gender": null,
             "_id": "5f5bfc57d2c6890014e26bb8"
