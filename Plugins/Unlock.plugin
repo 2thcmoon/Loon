@@ -30,7 +30,8 @@ http-response ^https?:\/\/((h5|api)\.xiuxiu|api-sub|api\.posters)\.meitu\.com\/.
 http-response ^https?:\/\/api\.meiease\.cn\/shop\/subscription\/validate script-path=https://github.com/ddgksf2013/dev/raw/main/PicsartProCrack.js, requires-body=true, tag=Picsart
 # ✅ 搜图神器
 http-response ^https?:\/\/.*\.soutushenqi\.com\/(api\/.+\/account\/(token|info)|cykj_community|v\d\/home\/dialog) script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/soutu.js, requires-body=true, timeout=10, tag=搜图神器
-
+# ✅ Lightroom
+http-response ^https:\/\/photos\.adobe\.io\/v2\/accounts* requires-body=1,script-path=https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/lightroom.js
 
 #>>>>>>>>>>>>>>>>工具类VIP
 # ✅ WPS(国区)
@@ -56,4 +57,4 @@ http-response ^https?:\/\/.*-slidebox-ios-prod\.cloudfunctions\.net\/api_v1 scri
 http-response https://uapi.woobx.cn/user/profile script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/yigemuhan.js, requires-body=true, timeout=60, tag=一个木函
 
 [MITM]
-hostname = app.yiyan.art, lchttpapi.xczim.com, mobile.flightradar24.com, ipadcms.caixin.com, server.zbisq.com, *.xiuxiu.meitu.com, api.posters.meitu.com, api-sub.meitu.com, api.meiease.cn, *.soutushenqi.com, *wps*, v2.appraven.net, ap*.intsig.net, *.oracle.bendingspoonsapps.com, mb3admin.com, api.polaxiong.com, cubox.cc, cubox.pro, *-slidebox-ios-prod.cloudfunctions.net, uapi.woobx.cn
+hostname = app.yiyan.art, lchttpapi.xczim.com, mobile.flightradar24.com, ipadcms.caixin.com, server.zbisq.com, *.xiuxiu.meitu.com, api.posters.meitu.com, api-sub.meitu.com, api.meiease.cn, *.soutushenqi.com, photos.adobe.io, *wps*, v2.appraven.net, ap*.intsig.net, *.oracle.bendingspoonsapps.com, mb3admin.com, api.polaxiong.com, cubox.cc, cubox.pro, *-slidebox-ios-prod.cloudfunctions.net, uapi.woobx.cn
