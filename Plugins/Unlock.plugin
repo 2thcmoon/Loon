@@ -31,7 +31,7 @@ http-response ^https?:\/\/api\.meiease\.cn\/shop\/subscription\/validate script-
 # ✅ 搜图神器
 http-response ^https?:\/\/.*\.soutushenqi\.com\/(api\/.+\/account\/(token|info)|cykj_community|v\d\/home\/dialog) script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/soutu.js, requires-body=true, timeout=10, tag=搜图神器
 # ✅ Lightroom
-http-response ^https:\/\/photos\.adobe\.io\/v2\/accounts* requires-body=1,script-path=https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/lightroom.js
+http-response ^https:\/\/photos\.adobe\.io\/v2\/accounts* requires-body=1,script-path=https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/lightroom.js, requires-body=true, timeout=10, tag=Lightroom
 
 #>>>>>>>>>>>>>>>>工具类VIP
 # ✅ WPS(国区)
