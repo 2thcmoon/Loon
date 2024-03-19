@@ -9,55 +9,53 @@
 [Script]
 #>>>>>>>>>>>>>>>>生活类VIP
 # ✅ 一言(need登录)
-http-response ^https:\/\/app\.yiyan\.art\/yiyan\/ script-path=https://github.com/ddgksf2013/dev/raw/main/YiYanProCrack.js, requires-body=true, tag=一言
+http-response ^https:\/\/app\.yiyan\.art\/yiyan\/ script-path=https://github.com/ddgksf2013/dev/raw/main/YiYanProCrack.js, requires-body=true, timeout = 60, tag=一言
 # ✅ 西窗烛(need登录)
-http-response https://lchttpapi.xczim.com/* script-path=https://github.com/ddgksf2013/dev/raw/main/XiChuangZhuProCrack.js, requires-body=true, tag=西窗烛
+http-response https://lchttpapi.xczim.com/* script-path=https://github.com/ddgksf2013/dev/raw/main/XiChuangZhuProCrack.js, requires-body=true, timeout = 60, tag=西窗烛
 # ✅ Flightradar24
-http-response ^https://mobile.flightradar24.com/mobile/(user-session|subscribe) script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/Flightradar24.js, requires-body=true, tag=Flightradar24
+http-response ^https://mobile.flightradar24.com/mobile/(user-session|subscribe) script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/Flightradar24.js, requires-body=true, timeout = 60, tag=Flightradar24
 
 
 
 #>>>>>>>>>>>>>>>>新闻类VIP
 # ✅ 财新周刊
-http-response http://ipadcms.caixin.com/tmp/articles/* script-path=https://github.com/ddgksf2013/dev/raw/main/CaiXinZhouKanProCrack.js, requires-body=true, tag=财新周刊
+http-response http://ipadcms.caixin.com/tmp/articles/* script-path=https://github.com/ddgksf2013/dev/raw/main/CaiXinZhouKanProCrack.js, requires-body=true, timeout = 60, tag=财新周刊
 
 #>>>>>>>>>>>>>>>>图影类VIP
 # ✅ Fimo(need登录)
-http-response ^https?:\/\/server\.zbisq\.com\/fimo-user script-path=https://raw.githubusercontent.com/ddgksf2013/MoYu/master/FimoProCrack.js, requires-body=true, tag=Fimo
+http-response ^https?:\/\/server\.zbisq\.com\/fimo-user script-path=https://raw.githubusercontent.com/ddgksf2013/MoYu/master/FimoProCrack.js, requires-body=true, timeout = 60, tag=Fimo
 # ✅ 美图秀秀
-http-response ^https?:\/\/((h5|api)\.xiuxiu|api-sub|api\.posters)\.meitu\.com\/.+\/(vip|user|h\d|center|home) script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/mtxx.js, requires-body=true, tag=美图秀秀
+http-response ^https?:\/\/((h5|api)\.xiuxiu|api-sub|api\.posters)\.meitu\.com\/.+\/(vip|user|h\d|center|home) script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/mtxx.js, requires-body=true, timeout = 60, tag=美图秀秀
 # ✅ Picsart
-http-response ^https?:\/\/api\.meiease\.cn\/shop\/subscription\/validate script-path=https://github.com/ddgksf2013/dev/raw/main/PicsartProCrack.js, requires-body=true, tag=Picsart
+http-response ^https?:\/\/api\.meiease\.cn\/shop\/subscription\/validate script-path=https://github.com/ddgksf2013/dev/raw/main/PicsartProCrack.js, requires-body=true, timeout = 60, tag=Picsart
 # ✅ 搜图神器
-http-response ^https?:\/\/.*\.soutushenqi\.com\/(api\/.+\/account\/(token|info)|cykj_community|v\d\/home\/dialog) script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/soutu.js, requires-body=true, tag=搜图神器
+http-response ^https?:\/\/.*\.soutushenqi\.com\/(api\/.+\/account\/(token|info)|cykj_community|v\d\/home\/dialog) script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/soutu.js, requires-body=true, timeout = 60, tag=搜图神器
 
 #>>>>>>>>>>>>>>>>工具类VIP
 # ✅ 百度网盘(倍速)
 http-response ^https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user script-path = https://gitlab.com/isous/loonresource/-/raw/main/Script/BaiduNetDisk/BaiduNetDisk_crack.js, requires-body = true, tag = 百度网盘
 # ✅ WPS(国区)
-http-response ^https:\/\/(vas|account)\.wps\.cn\/(query\/api\/v\d\/list_purchase_info|api\/users\/\d+\/overview) script-path=https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Premium/WPSOffice.js, requires-body=true, tag=WPS
+http-response ^https:\/\/(vas|account)\.wps\.cn\/(query\/api\/v\d\/list_purchase_info|api\/users\/\d+\/overview) script-path=https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Premium/WPSOffice.js, requires-body=true, timeout = 60, tag=WPS
 # ✅ Appraven(美化)
-http-response ^https?:\/\/v2\.appraven\.net\/appraven\/graphql script-path=https://gist.githubusercontent.com/ddgksf2013/562f8fd6a40be92d7c8b358aa25eab3f/raw/appraven.vip.js, requires-body=true, tag=Appraven
+http-response ^https?:\/\/v2\.appraven\.net\/appraven\/graphql script-path=https://gist.githubusercontent.com/ddgksf2013/562f8fd6a40be92d7c8b358aa25eab3f/raw/appraven.vip.js, requires-body=true, timeout = 60, tag=Appraven
 # ✅ 扫描全能王
-http-response ^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? script-path=https://github.com/ddgksf2013/dev/raw/main/CamscannerProCrack.js, requires-body=true, tag=扫描全能王
+http-response ^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? script-path=https://github.com/ddgksf2013/dev/raw/main/CamscannerProCrack.js, requires-body=true, timeout = 60, tag=扫描全能王
 
 #>>>>>>>>>>>>>>>>自行添加
 # ✅ Filmicpro，Focos，Focos live，Splice，30 Day Fitness，Sleep，Remini，Yoga Wave，Firstlight，Doubletake解锁会员
-http-response ^https?:\/\/.*\.oracle\.bendingspoonsapps\.com\/v\d\/(users\/.+|purchases\/verify) script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/bending.js, requires-body=true, tag=BendingSpoonsApps
+http-response ^https?:\/\/.*\.oracle\.bendingspoonsapps\.com\/v\d\/(users\/.+|purchases\/verify) script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/bending.js, requires-body=true, timeout = 60, tag=BendingSpoonsApps
 # ✅ Emby解锁会员
 http-response ^https?:\/\/mb3admin.com\/admin\/service\/registration\/validateDevice requires-body=true, script-path=https://raw.githubusercontent.com/Tartarus2014/Script/master/Emby.js,tag=Emby Unlock
 # ✅ 泼辣修图解锁会员
-http-response ^https?:\/\/.*\/v1\/payments\/(appleiap\/receipts\/confirmation|profiles\/@me\/subscription) script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/pola.js, requires-body=true, tag=泼辣修图
+http-response ^https?:\/\/.*\/v1\/payments\/(appleiap\/receipts\/confirmation|profiles\/@me\/subscription) script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/pola.js, requires-body=true, timeout = 60, tag=泼辣修图
 # ✅ Cubox解锁会员
-http-response ^https?:\/\/cubox\.(cc|pro)\/c\/api\/userInfo script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/cubox.js, requires-body=true, tag=Cubox
+http-response ^https?:\/\/cubox\.(cc|pro)\/c\/api\/userInfo script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/cubox.js, requires-body=true, timeout = 60, tag=Cubox
 # ✅ Slidebox解锁
 http-response ^https?:\/\/.*-slidebox-ios-prod\.cloudfunctions\.net\/api_v1 script-path = https://gitlab.com/isous/loonresource/-/raw/main/Script/Slidebox/Slidebox_crack.js, requires-body = true, tag = Slidebox
 # ✅ 一个木函解锁
-http-response https://uapi.woobx.cn/user/profile script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/yigemuhan.js, requires-body=true, tag=一个木函
+http-response https://uapi.woobx.cn/user/profile script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/yigemuhan.js, requires-body=true, timeout = 60, tag=一个木函
 # ✅ Lightroom
-http-response ^https:\/\/photos\.adobe\.io\/v2\/accounts* requires-body=1,script-path=https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/lightroom.js, requires-body=true, tag=Lightroom
-# ✅ 彩云天气
-http-response ^https?:\/\/biz.cyapi.cn\/(p\/v1\/user_info|v2\/user).*$ script-path=https://github.com/2thcmoon/Loon/raw/main/Scripts/cytq.js, requires-body=true, tag=彩云天气
+http-response ^https:\/\/photos\.adobe\.io\/v2\/accounts* requires-body=1,script-path=https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/lightroom.js, requires-body=true, timeout = 60, tag=Lightroom
 
 [MITM]
-hostname = app.yiyan.art, lchttpapi.xczim.com, mobile.flightradar24.com, ipadcms.caixin.com, server.zbisq.com, *.xiuxiu.meitu.com, api.posters.meitu.com, api-sub.meitu.com, api.meiease.cn, *.soutushenqi.com, pan.baidu.com, *wps*, v2.appraven.net, ap*.intsig.net, *.oracle.bendingspoonsapps.com, mb3admin.com, api.polaxiong.com, cubox.cc, cubox.pro, *-slidebox-ios-prod.cloudfunctions.net, uapi.woobx.cn, photos.adobe.io, biz.cyapi.cn
+hostname = app.yiyan.art, lchttpapi.xczim.com, mobile.flightradar24.com, ipadcms.caixin.com, server.zbisq.com, *.xiuxiu.meitu.com, api.posters.meitu.com, api-sub.meitu.com, api.meiease.cn, *.soutushenqi.com, pan.baidu.com, *wps*, v2.appraven.net, ap*.intsig.net, *.oracle.bendingspoonsapps.com, mb3admin.com, api.polaxiong.com, cubox.cc, cubox.pro, *-slidebox-ios-prod.cloudfunctions.net, uapi.woobx.cn, photos.adobe.io
