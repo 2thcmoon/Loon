@@ -13,8 +13,6 @@ http-response ^https:\/\/app\.yiyan\.art\/yiyan\/ script-path=https://github.com
 # ✅ 西窗烛(need登录)
 http-response https://lchttpapi.xczim.com/* script-path=https://github.com/ddgksf2013/dev/raw/main/XiChuangZhuProCrack.js, requires-body=true, timeout = 60, tag=西窗烛
 
-
-
 #>>>>>>>>>>>>>>>>新闻类VIP
 # ✅ 财新周刊
 http-response http://ipadcms.caixin.com/tmp/articles/* script-path=https://github.com/ddgksf2013/dev/raw/main/CaiXinZhouKanProCrack.js, requires-body=true, timeout = 60, tag=财新周刊
